@@ -1,0 +1,169 @@
+
+body{font-family: 'Poppins', sans-serif;
+    margin: 0;}
+#main-body{
+    width: 70%;
+    margin: 0 auto; 
+}
+/*Nav bar for Bonus mark*/
+#main-body ul{
+    background-color: #d5e6b8 ;
+    padding: 12px;
+    margin: 0px;
+}
+#main-body ul li{
+    margin-left: 25px;
+    list-style: none;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+#main-body ul li:hover{
+    color: #0984e3;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.h-font {font-size: 42px;}
+/*gradiant in text for Bonus mark*/
+.org {
+    background-image: linear-gradient(#e89208,#f5b208,#fbeb02);
+    background-size: 100%;
+    background-repeat: repeat;  
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.ash-color{color: #576574;}
+.lt-ash{color: #8395a7;}
+.flex-container{display: flex; }
+.half{
+    width: 50%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+p{margin-bottom: 40px;}
+.half img {
+    width: 110%; 
+}
+.link-button{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    background-image: linear-gradient(#e89208,#f5b208,#fbeb02);
+    padding: 13px 30px;
+    border-radius: 30px;
+   
+}
+.top-banner{
+    
+    background-image: url(img/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mdl-part{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat; 
+    background-position: right;
+    background-color: #d5e6b8;
+    height: 500px;
+
+}
+.mdl-part div img{
+    margin-top: 30px;
+}
+.sec-part{
+    margin-top: 80px;
+}
+.recipies div{
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+.recipies div img{
+    width: 100%;
+    border-radius: 20px;
+}
+h2{font-size: 2.1rem;}
+.recp-item{
+    width: 60%;
+    box-shadow: 10px 20px 30px #cccccc;
+    margin: 20%;
+    padding: 20px;
+    border-radius: 20px; 
+}
+.last-part{
+    box-shadow: 10px 20px 40px #e4e4e4;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.last-part div{
+    margin: 0px 120px 30px 110px;
+    padding: 5px 10px;
+    
+}
+.last-part div h1{
+    font-size: 3.5rem;
+    margin-bottom: -25px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    height: 210px;
+    margin-top: 50px;
+    color: blanchedalmond;
+}
+footer div{
+    padding-top: 10px;
+}
+/* Conntact form for Bonus mark */
+.connect-us div input{
+    padding: 10px;
+    margin: 20px 20px 12px 0px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #e4e4e4;
+}
+.connect-us div{
+    font-size: 1.3rem;
+}
+.connect-us p{
+    margin: 0px 0px 15px 0px;
+}
+.connect-us textarea{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #e4e4e4;
+}
+.connect-us .form-1{
+    margin-bottom: 30px;
+}
+.connect-us a{
+    text-decoration: none;
+    border-radius: 30px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #e4e4e4;
+    color: black;
+    padding: 12px 30px;
+}
+.connect-us a:hover{
+    background-color: #d3d3d3;
+}
